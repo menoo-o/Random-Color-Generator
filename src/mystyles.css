@@ -1,0 +1,28 @@
+.tuts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh; /* Set the height to fill the viewport */
+    background-color: white; /* Default background color */
+    transition: background-color 0.3s ease; /* Smooth transition for background color changes */
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  
+  /* Add specific styles for each button color if needed */
+  .green {
+    background-color: rgb(115, 124, 115);
+    color: white;
+  }
+
+  .green:hover{
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+  
